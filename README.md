@@ -1,6 +1,8 @@
 # Long-John-Fixed
 1. Code implementation in (footer.html) was removed that altered site structure orientation.
 ...............................
+
+
  <style>
         body {
            width: 100%;
@@ -12,6 +14,8 @@
            transform: rotate(180deg);
         }
         </style>
+        
+        
 ...............................   
 
 
@@ -25,7 +29,11 @@
 
 Commented out text-align property for alignment issue:
 (Modified code found in assets < scss < layouts < header < _header.css and also below.)
+
+
 ...............
+
+
 .header-logo--left {
     //text-align: left;
 
